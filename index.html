@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Methods</title>
+</head>
+<body>
+<!--use of copywithin method()-->
+    <script type="text/javascript">  
+        var arr1= ['Apple', 'Mango','Kiwi','papaya','grapes','mueskmelon','watermelon'];   
+               arr1.copyWithin(2,4)  
+               document.write(arr1);      
+        </script>  
+<br> 
+<!--JavaScript to illustrate filter() method -->
+<script type="text/javascript">  
+    function pract(value)  
+    { return value>=5;  
+    }   
+    var arr= ['Apple', 'Mango','Kiwi','papaya','grapes','muskmelon','watermelon']; 
+    var result=arr.filter(pract);   
+    document.write(result);       
+    </script> 
+<br>
+ <!--JavaScript to illustrate find() method -->
+    <script type="text/javascript">   
+        function JavaTpoint(value)  
+        {  
+        return value >12;  
+        }  
+        var arr = [1,2,3,4,5,6,7,8,9,12,11,14];  
+        var result = arr.find(JavaTpoint);  
+        document.write(result)     
+        </script>  
+<br>
+<!--JavaScript to illustrate forEach() method-->
+    <script type="text/javascript">  
+        function isMore() {  
+            var items = [1, 29, 47];  
+            var javaTpoint = [];  
+            items.forEach(function(item){  
+                javaTpoint.push(item*2);  
+            });  
+            document.write(javaTpoint);  
+        }  
+        isMore();  
+        </script>   
+<br>
+<!--JavaScript to illustrate map() method -->
+<script type="text/javascript">  
+    var input=[1,2,3];  
+    var output=input.map(function(input)  
+    {  
+    return input*2;  
+    });  
+    document.write("Array after using map() method the output is" );  
+    document.write("<br>");  
+    document.write(output);  
+    document.write("<br>");  
+    document.write("Actual array still remain the same ");  
+    document.write("<br>");  
+    document.write(input);   
+    </script>
+
+<!--Sorting the array -->
+<script>
+function JavaTpoint() {    
+    var arr = [2, 5, 8, 1, 4]  
+    document.write(arr.sort());  
+    document.write("<br>");  
+    document.write(arr);  
+}  
+JavaTpoint();  
+</script>
+
+<script type="text/javascript">  
+var JavaTpoint = ['core java','C'];  
+document.write("joins the elements of the array <br>");  
+document.write(JavaTpoint.join());  
+document.write("<br>");  
+   
+//elements are seperated by dot (.).  
+document.write("elements are seperated by dot (.) <br>");  
+document.write(JavaTpoint.join('.'));  
+document.write("<br>");  
+    
+</script>   
+</body>
+</html>
