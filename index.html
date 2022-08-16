@@ -17,7 +17,7 @@
 <!--JavaScript to illustrate filter() method -->
 <script type="text/javascript">  
     function pract(value)  
-    { return value>=5;  
+    { return value='Kiwi';  
     }   
     var arr= ['Apple', 'Mango','Kiwi','papaya','grapes','muskmelon','watermelon']; 
     var result=arr.filter(pract);   
@@ -26,12 +26,12 @@
 <br>
  <!--JavaScript to illustrate find() method -->
     <script type="text/javascript">   
-        function JavaTpoint(value)  
+        function pract(value)  
         {  
         return value >12;  
         }  
         var arr = [1,2,3,4,5,6,7,8,9,12,11,14];  
-        var result = arr.find(JavaTpoint);  
+        var result = arr.find(pract);  
         document.write(result)     
         </script>  
 <br>
@@ -39,11 +39,11 @@
     <script type="text/javascript">  
         function isMore() {  
             var items = [1, 29, 47];  
-            var javaTpoint = [];  
+            var pract = [];  
             items.forEach(function(item){  
-                javaTpoint.push(item*2);  
+                pract.push(item*2);  
             });  
-            document.write(javaTpoint);  
+            document.write(pract);  
         }  
         isMore();  
         </script>   
@@ -66,24 +66,24 @@
 
 <!--Sorting the array -->
 <script>
-function JavaTpoint() {    
+function pract2() {    
     var arr = [2, 5, 8, 1, 4]  
     document.write(arr.sort());  
     document.write("<br>");  
     document.write(arr);  
 }  
-JavaTpoint();  
+pract2();  
 </script>
 
 <script type="text/javascript">  
-var JavaTpoint = ['core java','C'];  
+var pract3 = ['core java','C'];  
 document.write("joins the elements of the array <br>");  
-document.write(JavaTpoint.join());  
+document.write(pract3.join());  
 document.write("<br>");  
    
 //elements are seperated by dot (.).  
 document.write("elements are seperated by dot (.) <br>");  
-document.write(JavaTpoint.join('.'));  
+document.write(pract3.join('.'));  
 document.write("<br>");  
     
 </script>   
